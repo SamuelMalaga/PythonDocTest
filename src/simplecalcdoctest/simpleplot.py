@@ -1,6 +1,19 @@
 import matplotlib.pyplot as plt
 
 def plot_grafico_linear(x, y, xlabel="X", ylabel="Y", title="Gráfico Linear"):
+    """
+    Plota um gráfico linear.
+
+    Parâmetros:
+    - x (array-like): Dados para o eixo X.
+    - y (array-like): Dados para o eixo Y.
+    - xlabel (str): Rótulo do eixo X (padrão: "X").
+    - ylabel (str): Rótulo do eixo Y (padrão: "Y").
+    - title (str): Título do gráfico (padrão: "Gráfico Linear").
+
+    Retorna:
+    - None
+    """
     plt.plot(x, y)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
